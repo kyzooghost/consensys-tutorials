@@ -1,0 +1,78 @@
+{"timestamp":"2021-09-17T16:54:31,013","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using LibEthPairings native alt bn128","throwable":""}
+{"timestamp":"2021-09-17T16:54:31,123","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using native secp256k1","throwable":""}
+{"timestamp":"2021-09-17T16:54:31,438","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Starting Besu version: besu/v21.7.1/linux-x86_64/adoptopenjdk-java-11","throwable":""}
+{"timestamp":"2021-09-17T16:54:43,082","container":"8d09eceec1c2","level":"WARN","thread":"main","class":"Besu","message":"--min-gas-price ignored because none of --miner-enabled or isQuorum (in genesis file) was defined.","throwable":""}
+{"timestamp":"2021-09-17T16:54:46,171","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Static Nodes file = /config/static-nodes.json","throwable":""}
+{"timestamp":"2021-09-17T16:54:50,589","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Connecting to 8 static nodes.","throwable":""}
+{"timestamp":"2021-09-17T16:54:51,143","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Security Module: localfile","throwable":""}
+{"timestamp":"2021-09-17T16:54:52,105","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"RocksDBKeyValueStorageFactory","message":"No existing database detected at /opt/besu/data. Using version 1","throwable":""}
+{"timestamp":"2021-09-17T16:55:06,593","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"KeyPairUtil","message":"Loaded public key 0xe40129f02c9e29a02049668346d4777bb55809042746882b33b20a8b5a7310eb5f107a53f0aa3da766ee77f401557a79c0c328329ea48bf0996c6c9dff817f76 from /opt/besu/keys/key","throwable":""}
+{"timestamp":"2021-09-17T16:55:07,018","container":"8d09eceec1c2","level":"WARN","thread":"main","class":"Besu","message":"Privacy is disabled. Cannot use EEA/PRIV API methods when not using Privacy.","throwable":""}
+{"timestamp":"2021-09-17T16:55:12,920","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"ProtocolScheduleBuilder","message":"Protocol schedule created with milestones: [Petersburg: 0]","throwable":""}
+{"timestamp":"2021-09-17T16:57:29,447","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using LibEthPairings native alt bn128","throwable":""}
+{"timestamp":"2021-09-17T16:57:29,534","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using native secp256k1","throwable":""}
+{"timestamp":"2021-09-17T16:57:29,804","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Starting Besu version: besu/v21.7.1/linux-x86_64/adoptopenjdk-java-11","throwable":""}
+{"timestamp":"2021-09-17T16:59:42,344","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using LibEthPairings native alt bn128","throwable":""}
+{"timestamp":"2021-09-17T16:59:42,431","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using native secp256k1","throwable":""}
+{"timestamp":"2021-09-17T16:59:43,079","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Starting Besu version: besu/v21.7.1/linux-x86_64/adoptopenjdk-java-11","throwable":""}
+{"timestamp":"2021-09-17T16:59:49,957","container":"8d09eceec1c2","level":"WARN","thread":"main","class":"Besu","message":"--min-gas-price ignored because none of --miner-enabled or isQuorum (in genesis file) was defined.","throwable":""}
+{"timestamp":"2021-09-17T16:59:54,174","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Static Nodes file = /config/static-nodes.json","throwable":""}
+{"timestamp":"2021-09-17T17:04:01,463","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using LibEthPairings native alt bn128","throwable":""}
+{"timestamp":"2021-09-17T17:04:01,520","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using native secp256k1","throwable":""}
+{"timestamp":"2021-09-17T17:04:01,717","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Starting Besu version: besu/v21.7.1/linux-x86_64/adoptopenjdk-java-11","throwable":""}
+{"timestamp":"2021-09-17T17:05:41,763","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using LibEthPairings native alt bn128","throwable":""}
+{"timestamp":"2021-09-17T17:05:41,800","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using native secp256k1","throwable":""}
+{"timestamp":"2021-09-17T17:05:41,919","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Starting Besu version: besu/v21.7.1/linux-x86_64/adoptopenjdk-java-11","throwable":""}
+{"timestamp":"2021-09-17T17:05:46,241","container":"8d09eceec1c2","level":"WARN","thread":"main","class":"Besu","message":"--min-gas-price ignored because none of --miner-enabled or isQuorum (in genesis file) was defined.","throwable":""}
+{"timestamp":"2021-09-17T17:05:50,948","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Static Nodes file = /config/static-nodes.json","throwable":""}
+{"timestamp":"2021-09-17T17:05:57,653","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Connecting to 8 static nodes.","throwable":""}
+{"timestamp":"2021-09-17T17:05:58,031","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Security Module: localfile","throwable":""}
+{"timestamp":"2021-09-17T17:05:58,517","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"DatabaseMetadata","message":"Lookup database metadata file in data directory: /opt/besu/data","throwable":""}
+{"timestamp":"2021-09-17T17:06:00,322","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"RocksDBKeyValueStorageFactory","message":"Existing database detected at /opt/besu/data. Version 1","throwable":""}
+{"timestamp":"2021-09-17T17:06:12,212","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"KeyPairUtil","message":"Loaded public key 0xe40129f02c9e29a02049668346d4777bb55809042746882b33b20a8b5a7310eb5f107a53f0aa3da766ee77f401557a79c0c328329ea48bf0996c6c9dff817f76 from /opt/besu/keys/key","throwable":""}
+{"timestamp":"2021-09-17T17:06:12,481","container":"8d09eceec1c2","level":"WARN","thread":"main","class":"Besu","message":"Privacy is disabled. Cannot use EEA/PRIV API methods when not using Privacy.","throwable":""}
+{"timestamp":"2021-09-17T17:09:33,829","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using LibEthPairings native alt bn128","throwable":""}
+{"timestamp":"2021-09-17T17:09:33,920","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using native secp256k1","throwable":""}
+{"timestamp":"2021-09-17T17:09:34,054","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Starting Besu version: besu/v21.7.1/linux-x86_64/adoptopenjdk-java-11","throwable":""}
+{"timestamp":"2021-09-17T17:09:39,904","container":"8d09eceec1c2","level":"WARN","thread":"main","class":"Besu","message":"--min-gas-price ignored because none of --miner-enabled or isQuorum (in genesis file) was defined.","throwable":""}
+{"timestamp":"2021-09-17T17:09:41,636","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Static Nodes file = /config/static-nodes.json","throwable":""}
+{"timestamp":"2021-09-17T17:09:42,714","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Connecting to 8 static nodes.","throwable":""}
+{"timestamp":"2021-09-17T17:09:43,147","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Security Module: localfile","throwable":""}
+{"timestamp":"2021-09-17T17:09:43,739","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"DatabaseMetadata","message":"Lookup database metadata file in data directory: /opt/besu/data","throwable":""}
+{"timestamp":"2021-09-17T17:09:46,629","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"RocksDBKeyValueStorageFactory","message":"Existing database detected at /opt/besu/data. Version 1","throwable":""}
+{"timestamp":"2021-09-17T17:11:42,356","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using LibEthPairings native alt bn128","throwable":""}
+{"timestamp":"2021-09-17T17:11:42,461","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using native secp256k1","throwable":""}
+{"timestamp":"2021-09-17T17:11:42,681","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Starting Besu version: besu/v21.7.1/linux-x86_64/adoptopenjdk-java-11","throwable":""}
+{"timestamp":"2021-09-17T17:11:49,004","container":"8d09eceec1c2","level":"WARN","thread":"main","class":"Besu","message":"--min-gas-price ignored because none of --miner-enabled or isQuorum (in genesis file) was defined.","throwable":""}
+{"timestamp":"2021-09-17T17:11:53,017","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Static Nodes file = /config/static-nodes.json","throwable":""}
+{"timestamp":"2021-09-17T17:11:54,450","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Connecting to 8 static nodes.","throwable":""}
+{"timestamp":"2021-09-17T17:11:54,707","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Security Module: localfile","throwable":""}
+{"timestamp":"2021-09-17T17:11:55,060","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"DatabaseMetadata","message":"Lookup database metadata file in data directory: /opt/besu/data","throwable":""}
+{"timestamp":"2021-09-17T17:11:57,247","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"RocksDBKeyValueStorageFactory","message":"Existing database detected at /opt/besu/data. Version 1","throwable":""}
+{"timestamp":"2021-09-17T17:13:53,887","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using LibEthPairings native alt bn128","throwable":""}
+{"timestamp":"2021-09-17T17:13:53,944","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using native secp256k1","throwable":""}
+{"timestamp":"2021-09-17T17:13:54,044","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Starting Besu version: besu/v21.7.1/linux-x86_64/adoptopenjdk-java-11","throwable":""}
+{"timestamp":"2021-09-17T17:13:59,807","container":"8d09eceec1c2","level":"WARN","thread":"main","class":"Besu","message":"--min-gas-price ignored because none of --miner-enabled or isQuorum (in genesis file) was defined.","throwable":""}
+{"timestamp":"2021-09-17T17:14:01,044","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Static Nodes file = /config/static-nodes.json","throwable":""}
+{"timestamp":"2021-09-17T17:14:02,565","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Connecting to 8 static nodes.","throwable":""}
+{"timestamp":"2021-09-17T17:14:03,145","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Security Module: localfile","throwable":""}
+{"timestamp":"2021-09-17T17:14:05,731","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"DatabaseMetadata","message":"Lookup database metadata file in data directory: /opt/besu/data","throwable":""}
+{"timestamp":"2021-09-17T17:15:55,824","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using LibEthPairings native alt bn128","throwable":""}
+{"timestamp":"2021-09-17T17:15:55,915","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using native secp256k1","throwable":""}
+{"timestamp":"2021-09-17T17:15:56,151","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Starting Besu version: besu/v21.7.1/linux-x86_64/adoptopenjdk-java-11","throwable":""}
+{"timestamp":"2021-09-17T17:16:01,280","container":"8d09eceec1c2","level":"WARN","thread":"main","class":"Besu","message":"--min-gas-price ignored because none of --miner-enabled or isQuorum (in genesis file) was defined.","throwable":""}
+{"timestamp":"2021-09-17T17:16:03,265","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Static Nodes file = /config/static-nodes.json","throwable":""}
+{"timestamp":"2021-09-17T17:16:05,924","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Connecting to 8 static nodes.","throwable":""}
+{"timestamp":"2021-09-17T17:16:07,281","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Security Module: localfile","throwable":""}
+{"timestamp":"2021-09-17T17:16:09,809","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"DatabaseMetadata","message":"Lookup database metadata file in data directory: /opt/besu/data","throwable":""}
+{"timestamp":"2021-09-17T17:17:42,169","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using LibEthPairings native alt bn128","throwable":""}
+{"timestamp":"2021-09-17T17:17:42,203","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using native secp256k1","throwable":""}
+{"timestamp":"2021-09-17T17:17:42,302","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Starting Besu version: besu/v21.7.1/linux-x86_64/adoptopenjdk-java-11","throwable":""}
+{"timestamp":"2021-09-17T17:17:45,919","container":"8d09eceec1c2","level":"WARN","thread":"main","class":"Besu","message":"--min-gas-price ignored because none of --miner-enabled or isQuorum (in genesis file) was defined.","throwable":""}
+{"timestamp":"2021-09-17T17:17:48,692","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Static Nodes file = /config/static-nodes.json","throwable":""}
+{"timestamp":"2021-09-17T17:17:50,059","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Connecting to 8 static nodes.","throwable":""}
+{"timestamp":"2021-09-17T17:17:50,465","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Security Module: localfile","throwable":""}
+{"timestamp":"2021-09-17T17:17:51,000","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"DatabaseMetadata","message":"Lookup database metadata file in data directory: /opt/besu/data","throwable":""}
+{"timestamp":"2021-10-26T11:07:44,852","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using LibEthPairings native alt bn128","throwable":""}
+{"timestamp":"2021-10-26T11:07:45,052","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Using native secp256k1","throwable":""}
+{"timestamp":"2021-10-26T11:07:46,596","container":"8d09eceec1c2","level":"INFO","thread":"main","class":"Besu","message":"Starting Besu version: besu/v21.7.1/linux-x86_64/adoptopenjdk-java-11","throwable":""}

@@ -1,0 +1,10 @@
+2021-09-17 16:34:40.700 [main] INFO  c.q.t.enclave.EnclaveFactoryImpl - Creating enclave
+2021-09-17 16:34:41.381 [main] INFO  c.q.t.enclave.EnclaveFactoryImpl - Creating enclave server
+2021-09-17 16:34:50.435 [main] WARN  c.q.t.c.util.EncryptedStringResolver - Some sensitive values are being given as unencrypted plain text in config. Please note this is NOT recommended for production environment.
+2021-09-17 16:34:50.684 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-17 16:36:51.040 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-17 16:39:07.981 [main] INFO  eclipselink.logging.all - EclipseLink, version: Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d
+2021-09-17 16:40:25.590 [main] WARN  eclipselink.logging.ddl - Removing UNIQUE constraint definition from [ENCRYPTED_TRANSACTION.HASH] because it is also a primary key.
+2021-09-17 16:40:37.174 [main] WARN  eclipselink.logging.ddl - Removing UNIQUE constraint definition from [ENCRYPTED_RAW_TRANSACTION.HASH] because it is also a primary key.
+2021-09-17 16:43:26.911 [main] INFO  eclipselink.logging.all - EclipseLink, version: Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d
+2021-09-17 16:44:03.677 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ST_AFFECTED_TRANSACTION" not found; SQL statement:ALTER TABLE ST_AFFECTED_TRANSACTION DROP CONSTRAINT FK_ST_AFFECTED_TRANSACTION_TXN_ID [42102-200]Error Code: 42102Call: ALTER TABLE ST_AFFECTED_TRANSACTION DROP CONSTRAINT FK_ST_AFFECTED_TRANSACTION_TXN_IDQuery: DataModifyQuery(sql="ALTER TABLE ST_AFFECTED_TRANSACTION DROP CONSTRAINT FK_ST_AFFECTED_TRANSACTION_TXN_ID")

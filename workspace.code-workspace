@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../hot_contracts"
+		},
+		{
+			"path": "../Alchemy-Transfers-Tutorial"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../blockchain-developer-bootcamp-final-project"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

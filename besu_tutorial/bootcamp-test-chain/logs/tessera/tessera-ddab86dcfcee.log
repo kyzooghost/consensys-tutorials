@@ -1,0 +1,124 @@
+2021-09-17 16:34:40.962 [main] INFO  c.q.t.enclave.EnclaveFactoryImpl - Creating enclave
+2021-09-17 16:34:41.387 [main] INFO  c.q.t.enclave.EnclaveFactoryImpl - Creating enclave server
+2021-09-17 16:34:53.542 [main] WARN  c.q.t.c.util.EncryptedStringResolver - Some sensitive values are being given as unencrypted plain text in config. Please note this is NOT recommended for production environment.
+2021-09-17 16:34:54.860 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-09-17 16:37:16.654 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-09-17 16:39:40.429 [main] INFO  eclipselink.logging.all - EclipseLink, version: Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d
+2021-09-17 16:40:44.386 [main] WARN  eclipselink.logging.ddl - Removing UNIQUE constraint definition from [ENCRYPTED_TRANSACTION.HASH] because it is also a primary key.
+2021-09-17 16:41:18.318 [main] WARN  eclipselink.logging.ddl - Removing UNIQUE constraint definition from [ENCRYPTED_RAW_TRANSACTION.HASH] because it is also a primary key.
+2021-09-17 16:43:24.739 [main] INFO  eclipselink.logging.all - EclipseLink, version: Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d
+2021-09-17 16:43:56.845 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ST_AFFECTED_TRANSACTION" not found; SQL statement:ALTER TABLE ST_AFFECTED_TRANSACTION DROP CONSTRAINT FK_ST_AFFECTED_TRANSACTION_TXN_ID [42102-200]Error Code: 42102Call: ALTER TABLE ST_AFFECTED_TRANSACTION DROP CONSTRAINT FK_ST_AFFECTED_TRANSACTION_TXN_IDQuery: DataModifyQuery(sql="ALTER TABLE ST_AFFECTED_TRANSACTION DROP CONSTRAINT FK_ST_AFFECTED_TRANSACTION_TXN_ID")
+2021-09-17 16:44:03.083 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Index "ST_TRANSACTION_VALSTG" not found; SQL statement:DROP INDEX ST_TRANSACTION_VALSTG [42112-200]Error Code: 42112Call: DROP INDEX ST_TRANSACTION_VALSTGQuery: DataModifyQuery(sql="DROP INDEX ST_TRANSACTION_VALSTG")
+2021-09-17 16:44:05.001 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Index "ST_TRANSACTION_HASH" not found; SQL statement:DROP INDEX ST_TRANSACTION_HASH [42112-200]Error Code: 42112Call: DROP INDEX ST_TRANSACTION_HASHQuery: DataModifyQuery(sql="DROP INDEX ST_TRANSACTION_HASH")
+2021-09-17 16:44:05.900 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ST_TRANSACTION" not found; SQL statement:DROP TABLE ST_TRANSACTION [42102-200]Error Code: 42102Call: DROP TABLE ST_TRANSACTIONQuery: DataModifyQuery(sql="DROP TABLE ST_TRANSACTION")
+2021-09-17 16:44:06.132 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ST_AFFECTED_TRANSACTION" not found; SQL statement:DROP TABLE ST_AFFECTED_TRANSACTION [42102-200]Error Code: 42102Call: DROP TABLE ST_AFFECTED_TRANSACTIONQuery: DataModifyQuery(sql="DROP TABLE ST_AFFECTED_TRANSACTION")
+2021-09-17 16:44:06.256 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Index "ST_TRANSACTION_VALSTG" not found; SQL statement:DROP INDEX ST_TRANSACTION_VALSTG [42112-200]Error Code: 42112Call: DROP INDEX ST_TRANSACTION_VALSTGQuery: DataModifyQuery(sql="DROP INDEX ST_TRANSACTION_VALSTG")
+2021-09-17 16:44:07.175 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Index "ST_TRANSACTION_HASH" not found; SQL statement:DROP INDEX ST_TRANSACTION_HASH [42112-200]Error Code: 42112Call: DROP INDEX ST_TRANSACTION_HASHQuery: DataModifyQuery(sql="DROP INDEX ST_TRANSACTION_HASH")
+2021-09-17 16:44:07.304 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ST_TRANSACTION" not found; SQL statement:DROP TABLE ST_TRANSACTION [42102-200]Error Code: 42102Call: DROP TABLE ST_TRANSACTIONQuery: DataModifyQuery(sql="DROP TABLE ST_TRANSACTION")
+2021-09-17 16:44:07.341 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ST_AFFECTED_TRANSACTION" not found; SQL statement:DROP TABLE ST_AFFECTED_TRANSACTION [42102-200]Error Code: 42102Call: DROP TABLE ST_AFFECTED_TRANSACTIONQuery: DataModifyQuery(sql="DROP TABLE ST_AFFECTED_TRANSACTION")
+2021-09-17 16:44:08.617 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Index "ST_TRANSACTION_VALSTG" not found; SQL statement:DROP INDEX ST_TRANSACTION_VALSTG [42112-200]Error Code: 42112Call: DROP INDEX ST_TRANSACTION_VALSTGQuery: DataModifyQuery(sql="DROP INDEX ST_TRANSACTION_VALSTG")
+2021-09-17 16:44:09.533 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Index "ST_TRANSACTION_HASH" not found; SQL statement:DROP INDEX ST_TRANSACTION_HASH [42112-200]Error Code: 42112Call: DROP INDEX ST_TRANSACTION_HASHQuery: DataModifyQuery(sql="DROP INDEX ST_TRANSACTION_HASH")
+2021-09-17 16:44:09.811 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ST_TRANSACTION" not found; SQL statement:DROP TABLE ST_TRANSACTION [42102-200]Error Code: 42102Call: DROP TABLE ST_TRANSACTIONQuery: DataModifyQuery(sql="DROP TABLE ST_TRANSACTION")
+2021-09-17 16:44:09.847 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ST_AFFECTED_TRANSACTION" not found; SQL statement:DROP TABLE ST_AFFECTED_TRANSACTION [42102-200]Error Code: 42102Call: DROP TABLE ST_AFFECTED_TRANSACTIONQuery: DataModifyQuery(sql="DROP TABLE ST_AFFECTED_TRANSACTION")
+2021-09-17 16:44:11.550 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Index "ST_TRANSACTION_VALSTG" not found; SQL statement:DROP INDEX ST_TRANSACTION_VALSTG [42112-200]Error Code: 42112Call: DROP INDEX ST_TRANSACTION_VALSTGQuery: DataModifyQuery(sql="DROP INDEX ST_TRANSACTION_VALSTG")
+2021-09-17 16:44:11.995 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Index "ST_TRANSACTION_HASH" not found; SQL statement:DROP INDEX ST_TRANSACTION_HASH [42112-200]Error Code: 42112Call: DROP INDEX ST_TRANSACTION_HASHQuery: DataModifyQuery(sql="DROP INDEX ST_TRANSACTION_HASH")
+2021-09-17 16:44:12.024 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ST_TRANSACTION" not found; SQL statement:DROP TABLE ST_TRANSACTION [42102-200]Error Code: 42102Call: DROP TABLE ST_TRANSACTIONQuery: DataModifyQuery(sql="DROP TABLE ST_TRANSACTION")
+2021-09-17 16:44:12.071 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ST_AFFECTED_TRANSACTION" not found; SQL statement:DROP TABLE ST_AFFECTED_TRANSACTION [42102-200]Error Code: 42102Call: DROP TABLE ST_AFFECTED_TRANSACTIONQuery: DataModifyQuery(sql="DROP TABLE ST_AFFECTED_TRANSACTION")
+2021-09-17 16:44:12.827 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Index "ST_TRANSACTION_VALSTG" not found; SQL statement:DROP INDEX ST_TRANSACTION_VALSTG [42112-200]Error Code: 42112Call: DROP INDEX ST_TRANSACTION_VALSTGQuery: DataModifyQuery(sql="DROP INDEX ST_TRANSACTION_VALSTG")
+2021-09-17 16:44:13.363 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Index "ST_TRANSACTION_HASH" not found; SQL statement:DROP INDEX ST_TRANSACTION_HASH [42112-200]Error Code: 42112Call: DROP INDEX ST_TRANSACTION_HASHQuery: DataModifyQuery(sql="DROP INDEX ST_TRANSACTION_HASH")
+2021-09-17 16:44:13.784 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ST_TRANSACTION" not found; SQL statement:DROP TABLE ST_TRANSACTION [42102-200]Error Code: 42102Call: DROP TABLE ST_TRANSACTIONQuery: DataModifyQuery(sql="DROP TABLE ST_TRANSACTION")
+2021-09-17 16:44:13.864 [main] WARN  eclipselink.logging.all - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d): org.eclipse.persistence.exceptions.DatabaseExceptionInternal Exception: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ST_AFFECTED_TRANSACTION" not found; SQL statement:DROP TABLE ST_AFFECTED_TRANSACTION [42102-200]Error Code: 42102Call: DROP TABLE ST_AFFECTED_TRANSACTIONQuery: DataModifyQuery(sql="DROP TABLE ST_AFFECTED_TRANSACTION")
+2021-09-17 16:45:03.328 [main] INFO  c.q.t.l.ScheduledServiceFactory - Creating p2p client
+2021-09-17 16:45:08.446 [main] INFO  c.q.t.l.ScheduledServiceFactory - Created p2p client com.quorum.tessera.p2p.partyinfo.RestP2pClient@280fafd
+2021-09-17 16:45:08.850 [main] INFO  c.q.t.l.ScheduledServiceFactory - Creating EnclaveKeySynchroniser
+2021-09-17 16:45:12.613 [main] INFO  c.q.t.l.ScheduledServiceFactory - Created EnclaveKeySynchroniser {}
+2021-09-17 16:45:14.681 [main] INFO  c.q.t.l.ScheduledServiceFactory - Creating PartyInfoBroadcaster
+2021-09-17 16:45:15.720 [main] INFO  c.q.t.l.ScheduledServiceFactory - Created PartyInfoBroadcaster com.quorum.tessera.p2p.partyinfo.PartyInfoBroadcaster@58aa1d72
+2021-09-17 16:45:18.592 [main] INFO  c.q.t.t.TesseraScheduledExecutor - Starting ScheduledServiceFactory$$Lambda$236/0x00000001003c5040
+2021-09-17 16:45:20.126 [main] INFO  c.q.t.t.TesseraScheduledExecutor - Started ScheduledServiceFactory$$Lambda$236/0x00000001003c5040
+2021-09-17 16:45:20.153 [main] INFO  c.q.t.t.TesseraScheduledExecutor - Starting PartyInfoBroadcaster
+2021-09-17 16:45:20.293 [main] INFO  c.q.t.t.TesseraScheduledExecutor - Started PartyInfoBroadcaster
+2021-09-17 16:45:20.304 [main] INFO  c.q.t.l.ScheduledServiceFactory - Creating Enclave
+2021-09-17 16:45:20.337 [main] INFO  c.q.t.l.ScheduledServiceFactory - Created Enclave com.quorum.tessera.enclave.EnclaveImpl@269222ae
+2021-09-17 16:45:20.419 [main] INFO  c.q.t.l.ScheduledServiceFactory - Starting Enclave
+2021-09-17 16:45:20.557 [main] INFO  c.q.t.l.ScheduledServiceFactory - Started Enclave
+2021-09-17 16:45:25.343 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:45:56.953 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:46:03.613 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:46:19.738 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:46:25.273 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:46:26.534 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:46:32.436 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:46:35.623 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:46:41.423 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:46:44.660 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:46:49.712 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:46:51.274 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:46:56.784 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:47:00.025 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:47:05.253 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:47:06.949 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:47:12.716 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:47:14.351 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:47:19.875 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:47:22.897 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:47:28.177 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:47:31.998 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:47:37.431 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:47:38.843 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:47:39.280 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @955906ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-09-17 16:47:46.713 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:47:50.188 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:48:34.122 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:48:41.920 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:48:48.909 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:48:58.333 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:49:04.047 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:49:04.735 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:49:09.868 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:49:10.984 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:49:16.124 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:49:17.686 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:49:22.935 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:49:23.981 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:49:29.377 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:49:30.672 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:49:35.873 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:49:36.587 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:49:41.708 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:49:45.851 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:49:50.918 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:49:54.863 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:49:55.182 [main] INFO  c.q.t.server.jersey.JerseyServer - Starting http://172.16.239.26:9080
+2021-09-17 16:50:00.617 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:50:01.105 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.42.v20210604; built: 2021-06-04T17:33:38.939Z; git: 5cd5e6d2375eeab146813b0de9f19eda6ab6e6cb; jvm 11.0.11+9
+2021-09-17 16:50:02.115 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:50:07.304 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:50:09.758 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:50:22.971 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:50:25.412 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:50:30.494 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:50:36.477 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:50:41.650 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:50:43.577 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:50:48.665 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:50:49.856 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:50:54.889 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:51:01.454 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:51:06.565 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:51:07.909 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:51:12.960 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:51:15.747 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:51:21.536 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:51:25.344 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:51:30.916 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:51:33.797 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:51:38.835 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:51:39.937 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:51:45.911 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:51:48.525 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+ERROR: In class ExceptionInInitializerError
+2021-09-17 16:51:53.656 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
+2021-09-17 16:51:56.050 [Thread-1] INFO  c.q.t.server.jersey.JerseyServer - Stopping Jersey server at http://172.16.239.26:9080
+2021-09-17 16:52:03.001 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Finished PartyInfo polling round
+2021-09-17 16:52:10.746 [pool-4-thread-1] INFO  c.q.t.p.p.PartyInfoBroadcaster - Started PartyInfo polling round
